@@ -31,7 +31,6 @@ List<Enemy> GetEnemies()
                 "Being a jerk to me in elementary school",
                 "Not being nice to me in elementary school"
             },
-            IsReallyHated = true
         },
         new Enemy {
             FirstName = "Darth",
