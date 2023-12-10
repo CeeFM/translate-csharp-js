@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{50579CE7-780A-4B1A-84B1-EDE58C9BE68F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WishList", "csharp\WishList\WishList.csproj", "{CD46357B-397D-4EA1-BF19-8756EDB15AE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD46357B-397D-4EA1-BF19-8756EDB15AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD46357B-397D-4EA1-BF19-8756EDB15AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD46357B-397D-4EA1-BF19-8756EDB15AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD46357B-397D-4EA1-BF19-8756EDB15AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CD46357B-397D-4EA1-BF19-8756EDB15AE5} = {50579CE7-780A-4B1A-84B1-EDE58C9BE68F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88A21865-F828-4946-ACC6-579C4053FB63}
+	EndGlobalSection
+EndGlobal
