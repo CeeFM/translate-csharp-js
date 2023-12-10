@@ -14,8 +14,17 @@ List<string> insults = new List<string> {
     "Do you have to be so...like that?"
 };
 
+List<int> indexes = new List<int>();
+
+while (indexes.Count < 3) {
 Random rand = new Random();
 int number = rand.Next(0, insults.Count);
-Console.WriteLine(insults.Count);
-Console.WriteLine(number);
-Console.WriteLine(insults[number]);
+if (!indexes.Contains(number)) {
+    indexes.Add(number);
+}
+}
+
+for (int i = 0; i < indexes.Count; i++) {
+    int index = indexes[i];
+    Console.WriteLine(insults[index]);
+}
